@@ -1,0 +1,76 @@
+/* Reset de margens e preenchimentos padrão */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: rgb(226, 215, 202);
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para o título principal */
+h1 {
+    color: rgb(187, 28, 11);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para subtítulo */
+em p {
+    text-align: center;
+    font-size: large;
+}
+
+/* Estilos para os subtítulos (PARIS, IRLANDA, GEORGIA) */
+h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Estilos para as imagens */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilos para os artigos */
+article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: solid 2px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para os links no rodapé */
+footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
